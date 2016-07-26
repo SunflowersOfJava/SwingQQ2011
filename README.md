@@ -1,24 +1,24 @@
 【已有功能】
 ===========
-1、服务端开启服务
-2、客户端根据用户名和密码进行登录
-3、简单的换肤(效果不是很好)
-4、一对一文字聊天(很严重的bug)
-5、截图功能
+1、服务端开启服务<br/>
+2、客户端根据用户名和密码进行登录<br/>
+3、简单的换肤(效果不是很好)<br/>
+4、一对一文字聊天(很严重的bug)<br/>
+5、截图功能<br/>
 【数据库说明】
 ===========
-数据库使用的是smallsql;
+数据库使用的是smallsql;<br/>
 
-数据库使用：
+数据库使用：<br/>
 
-把smallsql.jar放到和数据库(qqdb)同一级目录,  java -jar smallsql.jar.
-在dos窗口下，输入 USE qqdb  回车两下
-select * from userinfos  回车两下
-select * from users 回车两下
-select * from friend 回车两下
+把smallsql.jar放到和数据库(qqdb)同一级目录,  java -jar smallsql.jar.<br/>
+在dos窗口下，输入 USE qqdb  回车两下<br/>
+select * from userinfos  回车两下<br/>
+select * from users 回车两下<br/>
+select * from friend 回车两下<br/>
 
-由于是随便玩玩的，表设计的很简单，现在才3张表。用户表users、用户信息表userinfos、好友表friend,表的字段可以参考user.hbm.xml、userinfo.hbm.xml和friend.hbm.xml。
-使用hibernate对数据库进行访问;
+由于是随便玩玩的，表设计的很简单，现在才3张表。用户表users、用户信息表userinfos、好友表friend,表的字段可以参考user.hbm.xml、userinfo.hbm.xml和friend.hbm.xml。<br/>
+使用hibernate对数据库进行访问;<br/>
 
 【结构说明】
 ===========
@@ -45,33 +45,33 @@ select * from friend 回车两下
 </pre>
 【原始数据】
 ===========
-随便玩玩的，所以注册添加好友这些都没弄,要添加新的数据就用sql语句来添加吧。
+随便玩玩的，所以注册添加好友这些都没弄,要添加新的数据就用sql语句来添加吧。<br/>
 
-测试账号:786074249,914001405,442714254,5201314 密码都是123456
+测试账号:786074249,914001405,442714254,5201314 密码都是123456<br/>
 
 【操作步骤】
 ===========
-先运行org.fw.qq.server的QQServer类再运行org.fw.qq的Main类
+先运行org.fw.qq.server的QQServer类再运行org.fw.qq的Main类<br/>
 
 【存在问题】：
 ===========
-随便练练手的，所以没什么计划，就开始乱写了。想一点写一点，到后面发现想写好也变得很困难了。
-界面的重绘存在很大的问题；
-很多细节方面还存在很大的问题；
-对于语音和视频聊天，只是简单的做了下尝试，代码基本上是网上拿来主义。
-【应用截图】
+随便练练手的，所以没什么计划，就开始乱写了。想一点写一点，到后面发现想写好也变得很困难了。<br/>
+界面的重绘存在很大的问题；<br/>
+很多细节方面还存在很大的问题；<br/>
+对于语音和视频聊天，只是简单的做了下尝试，代码基本上是网上拿来主义。<br/>
+【应用截图】<br/>
 ===========
-登录
+登录<br/>
 ![login](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/login.png)
-截屏
+截屏<br/>
 ![cutscreen](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/cutscreen.png)
-好友列表
+好友列表<br/>
 ![friendlist](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/friendlist.png)
-日志
+日志<br/>
 ![logining](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/logining.png)
-皮肤设置
+皮肤设置<br/>
 ![skinset](https://github.com/SunflowersOfJava/SwingQQ2011/readme/skinset.png)
-聊天
+聊天<br/>
 ![skinset](https://github.com/SunflowersOfJava/SwingQQ2011/readme/talk.png)
-视频聊天
+视频聊天<br/>
 ![videotalk](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/videotalk.png)
