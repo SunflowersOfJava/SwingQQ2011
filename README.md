@@ -24,26 +24,27 @@ select * from friend 回车两下
 
 【结构说明】
 ===========
-项目文件夹说明:
-|--src 源代码
-   |--org.fw 一些基本控件
-   |--org.fw.cellrender 渲染
-   |--org.fw.data JList等控件的使用到的数据
-   |--org.fw.db.pojo hibernate用到的pojo类
-   |--org.fw.event 自定义事件类
-   |--org.fw.image 获取图片
-   |--org.fw.manager RepaintManager
-   |--org.fw.qq qq客户端相关类
-   |--org.fw.qq.plugins.screencut 截图插件
-   |--org.fw.qq.server qq服务端相关类
-   |--org.fw.test 一些测试类
-   |--org.fw.utils 一些帮助类
-|--cfg 资源配置文件
-|--info smallsql使用的一些截图
-|--lib 
-|--qqdb 系统数据库
-|--skin 用到的相关图片
-
+项目文件夹说明:<br/>
+<pre>
+|--src 源代码<br/>
+   |--org.fw 一些基本控件<br/>
+   |--org.fw.cellrender 渲染<br/>
+   |--org.fw.data JList等控件的使用到的数据<br/>
+   |--org.fw.db.pojo hibernate用到的pojo类<br/>
+   |--org.fw.event 自定义事件类<br/>
+   |--org.fw.image 获取图片<br/>
+   |--org.fw.manager RepaintManager<br/>
+   |--org.fw.qq qq客户端相关类<br/>
+   |--org.fw.qq.plugins.screencut 截图插件<br/>
+   |--org.fw.qq.server qq服务端相关类<br/>
+   |--org.fw.test 一些测试类<br/>
+   |--org.fw.utils 一些帮助类<br/>
+|--cfg 资源配置文件<br/>
+|--info smallsql使用的一些截图<br/>
+|--lib <br/>
+|--qqdb 系统数据库<br/>
+|--skin 用到的相关图片<br/>
+</pre>
 【原始数据】
 ===========
 随便玩玩的，所以注册添加好友这些都没弄,要添加新的数据就用sql语句来添加吧。
@@ -71,7 +72,7 @@ select * from friend 回车两下
 日志
 ![logining](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/logining.png)
 皮肤设置
-![skinset](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/skinset.png)
+![skinset](https://github.com/SunflowersOfJava/SwingQQ2011/readme/skinset.png)
 聊天
 ![talk](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/talk.png)
 视频聊天
