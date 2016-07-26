@@ -1,5 +1,3 @@
-<<<<<<<<<<<<<<<<<<<<<SwingQQ2011
-===========
 【已有功能】
 ===========
 1、服务端开启服务
@@ -74,6 +72,6 @@ select * from friend 回车两下
 皮肤设置
 ![skinset](https://github.com/SunflowersOfJava/SwingQQ2011/readme/skinset.png)
 聊天
-![talk](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/talk.png)
+![skinset](https://github.com/SunflowersOfJava/SwingQQ2011/readme/talk.png)
 视频聊天
 ![videotalk](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/videotalk.png)
