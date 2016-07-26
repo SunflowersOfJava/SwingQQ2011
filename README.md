@@ -60,3 +60,12 @@ select * from friend 回车两下
 界面的重绘存在很大的问题；
 很多细节方面还存在很大的问题；
 对于语音和视频聊天，只是简单的做了下尝试，代码基本上是网上拿来主义。
+【应用截图】
+===========
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/login.png)
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/cutscreen.png)
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/friendlist.png)
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/logining.png)
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/skinset.png)
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/talk.png)
+![image](https://github.com/SunflowersOfJava/SwingQQ2011/tree/master/readme/videotalk.png)
